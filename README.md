@@ -244,7 +244,7 @@ x = x.to(device) # x 가 CPU 일 때 .to(device)를 해줌으로서 GPU로 변
 - `torch.optim.lr_scheduler`를 이용해 에포크(epochs)에 따라 학습률(learning rate) 조절
 - 파이토치의 주요 옵티마이저: `optim.Adadelta`, `optim.Adagrad`, `optim.Adam`, `optim.RMSprop`, `optim.SGD`
 
-# PyTorch Code
+# ⌨️ PyTorch Code
 
 ### Code Contents
 - PyTorch Basic
