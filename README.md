@@ -7,7 +7,7 @@
 
 [Code 보기](#PyTorch-Code)
 
-파이토치 모듈 구조
+## **파이토치 모듈 구조**
 
 ![Module Architecture](images/module_architecture.png)
 
