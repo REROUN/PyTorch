@@ -7,7 +7,7 @@
 
 파이토치 모듈 구조
 
-![]
+![Module Architecture](images/module_architecture.png)
 
 ## 파이토치의 구성 요소
 
@@ -26,7 +26,7 @@
 - 넘파이(NumPy)의 ndarray와 유사
 - GPU를 사용한 연산 가속 가능
 
-![]
+![Tensor](images/tensor.png)
 
 ## 데이터 타입
 
@@ -69,7 +69,7 @@ x = x.to(device) # x 가 CPU 일 때 .to(device)를 해줌으로서 GPU로 변
 - 일반적인 수치, 통계 dataset 이 해당
 - 주로 샘플(samples)과 특성(features)을 가진 구조로 사용
 
-![]
+![2D Tensor](images/2D_tensor.png)
 
 ### 3D Tensor
 
@@ -78,7 +78,7 @@ x = x.to(device) # x 가 CPU 일 때 .to(device)를 해줌으로서 GPU로 변
 - 주식 가격 데이터셋, 시간에 따른 질병 발병 데이터 등이 존재
 - 주로 샘플(samples), 타임스텝(timesteps), 특성(features)을 가진 구조로 사용
 
-![]
+![3D Tensor](images/3D_tensor.png)
 
 ### 4D Tensor
 
@@ -86,7 +86,7 @@ x = x.to(device) # x 가 CPU 일 때 .to(device)를 해줌으로서 GPU로 변
 - 컬러 이미지 데이터가 대표적인 사례 (흑백 이미지 데이터는 3D Tensor로 가능)
 - 주로 샘플(samples), 높이(height), 너비(width), 컬러 채널(channel)을 가진 구조로 사용
 
-![]
+![4D Tensor](images/4D_tensor.png)
 
 ### 5D Tensor
 
@@ -202,7 +202,7 @@ x = x.to(device) # x 가 CPU 일 때 .to(device)를 해줌으로서 GPU로 변
 
 ## **신경망 종류**
 
-![]
+![Neural Networks](images/neural_networks.png)
 
 ## **모델 정의**
 
