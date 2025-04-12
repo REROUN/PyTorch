@@ -5,6 +5,8 @@
 - 이후 GPU를 이용한 텐서 조작 및 동적 신경망 구축이 가능하도록 딥러닝 프레임워크로 발전시킴
 - 파이썬 답게 만들어졌고, 유연하면서도 가속화된 계산 속도를 제공
 
+[Code 보기](#code)
+
 파이토치 모듈 구조
 
 ![Module Architecture](images/module_architecture.png)
@@ -241,6 +243,9 @@ x = x.to(device) # x 가 CPU 일 때 .to(device)를 해줌으로서 GPU로 변
 - `zero_grad()`를 이용해 옵티마이저에 사용된 파라미터들의 기울기를 0으로 설정
 - `torch.optim.lr_scheduler`를 이용해 에포크(epochs)에 따라 학습률(learning rate) 조절
 - 파이토치의 주요 옵티마이저: `optim.Adadelta`, `optim.Adagrad`, `optim.Adam`, `optim.RMSprop`, `optim.SGD`
+
+# code
+# PyTorch Code
 
 ### Code Contents
 - PyTorch Basic
