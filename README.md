@@ -1,4 +1,6 @@
+<code><img height="100" src="https://github.com/user-attachments/assets/8b007730-208b-4190-b0e7-f688a80c895d"></code>
 # PyTorch
+
 
 - 페이스북이 초기 루아(Lua) 언어로 개발된 토치(Torch)를 파이썬 버전으로 개발하여 2017년도에 공개
 - 초기에 토치(Torch)는 넘파이(NumPy) 라이브러리처럼 과학 연산을 위한 라이브러리로 공개
